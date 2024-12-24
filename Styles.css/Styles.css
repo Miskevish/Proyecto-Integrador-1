@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800,900&display=swap");
 
 * {
@@ -39,4 +40,32 @@ body {
 
 .nav-link {
   color: white;
+}
+
+footer {
+  background-color: #2c3e50;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: white;
+}
+.mapa-container {
+  height: 250px;
+  width: 100%;
+  margin-bottom: -16px;
+}
+
+.mapa-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.img-footer{
+  max-width: 120px"
 }
