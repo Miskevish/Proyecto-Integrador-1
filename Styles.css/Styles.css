@@ -7,3 +7,17 @@
 body {
   background-color: #faf3e0;
 }
+
+.btn-primary {
+  background-color: #1e3a5f;
+  border-color: #00d9ff;
+}
+
+.btn-primary:hover {
+  background-color: #3e89e0;
+  border-color: #004085;
+}
+
+.card {
+  background-color: #141313;
+}
