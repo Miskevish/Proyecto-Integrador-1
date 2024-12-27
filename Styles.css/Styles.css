@@ -33,6 +33,15 @@ body {
   transition: all 0.7s;
 }
 
+.tamanio-carrousel{
+    div{
+        img{
+            height: 250px;
+            object-fit: cover;
+        }
+    }
+}
+
 .card {
   background-color: #141313;
   border-color: #004085;
