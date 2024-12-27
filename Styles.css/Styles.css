@@ -44,9 +44,38 @@ body {
 .card {
   background-color: #141313;
   border-color: #004085;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .nav-link {
+  color: white;
+}
+
+.text-hidden {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  transition: max-height 0.3s ease;
+  max-height: 12em;
+}
+
+.paginacion {
+  background-color: #141313;
+  color: white;
+  border: 1px solid #1a1a2e;
+  &:hover {
+    background-color: #004085;
+    color: white;
+  }
+}
+
+.paginacion.active {
+  background-color: #004085;
+  border-color: #004085;
   color: white;
 }
 
