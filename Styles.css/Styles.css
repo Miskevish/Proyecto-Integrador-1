@@ -1,0 +1,80 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #151f28;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.btn-primary {
+  background-color: #1e3a5f;
+  border-color: #00d9ff;
+}
+
+.btn-primary:hover {
+  background-color: #3e89e0;
+  border-color: #004085;
+}
+
+.btn:before {
+  background-color: #00d9ff;
+  height: 150px;
+  width: 200px;
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.tamanio-carrousel{
+    div{
+        img{
+            height: 250px;
+            object-fit: cover;
+        }
+    }
+}
+
+.card {
+  background-color: #141313;
+  border-color: #004085;
+}
+
+.nav-link {
+  color: white;
+}
+
+footer {
+  background-color: #141313;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: white;
+}
+.mapa-container {
+  height: 250px;
+  width: 100%;
+  margin-bottom: -16px;
+}
+
+.mapa-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.img-footer{
+  max-width: 120px"
+}
