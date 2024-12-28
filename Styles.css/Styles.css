@@ -11,6 +11,7 @@ body {
   background: #151f28;
   color: #fff;
   overflow-x: hidden;
+  padding-top: 57px;
 }
 
 .btn-primary {
@@ -31,6 +32,43 @@ body {
   left: 100%;
   transition: all 0.7s;
 }
+/*navbar*/
+
+.navbar {
+  background-color: #141313;
+  font-size: 20px;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.img-logo {
+  width: 190px;
+  transition: transform 0.3s ease;
+}
+
+.img-logo:hover {
+  transform: scale(1.05);
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #1abc9c;
+  transform: scale(1.1);
+}
+
+@media (max-width: 900px) {
+  body {
+    padding-top: 70px;
+  }
+}
+
+/*fin  de navbar*/
 
 .tamanio-carrousel {
   div {
