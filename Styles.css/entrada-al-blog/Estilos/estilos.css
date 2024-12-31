@@ -32,6 +32,7 @@ body {
   left: 100%;
   transition: all 0.7s;
 }
+
 /*navbar*/
 
 .navbar {
@@ -71,10 +72,6 @@ body {
 
 /*fin  de navbar*/
 
-.main {
-  height: 100vh;
-}
-
 .card {
   background-color: #141313;
   border-color: #004085;
@@ -84,17 +81,68 @@ body {
   text-align: center;
 }
 
-.nav-link {
-  color: white;
+form button[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  font-size: 1.5rem;
+  padding: 5px 20px;
+  border-radius: 10px;
 }
 
-.text-hidden {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  transition: max-height 0.3s ease;
-  max-height: 12em;
+form {
+  background-color: #141313;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form .form-control {
+  background-color: #151f28;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+form .form-control:focus {
+  background-color: #1e1e1e;
+  color: #fff;
+  border-color: #00d9ff;
+  outline: none;
+  box-shadow: 0 0 5px #00d9ff;
+}
+
+form button[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  font-size: 1.5rem;
+  padding: 5px 30px;
+  border-radius: 10px;
+  background-color: #00d9ff;
+  color: #141313;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+form .form-control::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.list-group-item {
+  background-color: #151f28;
+  color: #fff;
+  border: none;
+  padding: 15px;
+}
+
+.list-group-item + .list-group-item {
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: white;
 }
 
 footer {
