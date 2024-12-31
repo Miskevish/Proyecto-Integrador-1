@@ -153,3 +153,40 @@ footer {
 .img-footer:hover {
   transform: scale(1.05);
 }
+/*comienzo de pagina error-404*/
+.error-404-container {
+  min-height: 100vh;
+  background-color: #151f28;
+}
+
+.error-404-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.error-404-text {
+  color: #ffffff;
+}
+
+.error-404-numero {
+  font-size: 128px;
+  font-weight: bold;
+  color: #0984e3;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .error-numbero {
+    font-size: 96px;
+  }
+}
+
+.back-button {
+  transition: transform 0.3s ease;
+}
+
+.back-button:hover {
+  transform: translateY(-3px);
+}
+
+/*fin de pagina error-404 */
