@@ -196,11 +196,11 @@
         <form>
           <div class="mb-3 text-center">
             <label for="nombre text-center" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre" required>
+            <input type="text" class="form-control" id="nombre" minlength="3" maxlength="20" placeholder="Escribe tu nombre" required>
           </div>
           <div class="mb-3 text-center">
             <label for="comentario" class="form-label">Comentario</label>
-            <textarea class="form-control" id="comentario" rows="3" placeholder="Escribe tu comentario" required></textarea>
+            <textarea class="form-control" id="comentario" rows="3" minlength="3" maxlength="180" placeholder="Escribe tu comentario" required></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
@@ -257,9 +257,9 @@
               <div
                 class="d-flex flex-column align-items-center gap-2 text-center"
               >
-                <a href="#" class="footer-link">Términos y condiciones</a>
-                <a href="#" class="footer-link">Política de privacidad</a>
-                <a href="#" class="footer-link">Aviso legal</a>
+                <a href="../error-404.html" class="footer-link">Términos y condiciones</a>
+                <a href="../error-404.html" class="footer-link">Política de privacidad</a>
+                <a href="../error-404.html" class="footer-link">Aviso legal</a>
               </div>
              </div>
           </div>
