@@ -70,7 +70,14 @@ body {
   }
 }
 
-/*fin  de navbar*/
+.carousel {
+  div {
+    img {
+      height: 350px;
+      object-fit: cover;
+    }
+  }
+}
 
 .card {
   background-color: #141313;
