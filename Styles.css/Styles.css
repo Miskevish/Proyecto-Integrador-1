@@ -11,7 +11,6 @@ body {
   background: #151f28;
   color: #fff;
   overflow-x: hidden;
-  padding-top: 57px;
 }
 
 .btn-primary {
@@ -35,6 +34,10 @@ body {
 /*navbar*/
 
 .navbar {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
   background-color: #141313;
   font-size: 20px;
 }
@@ -63,18 +66,12 @@ body {
   transform: scale(1.1);
 }
 
-@media (max-width: 900px) {
-  body {
-    padding-top: 70px;
-  }
-}
-
 /*fin  de navbar*/
 
 .tamanio-carrousel {
   div {
     img {
-      height: 350px;
+      height: 300px;
       object-fit: cover;
     }
   }
@@ -194,8 +191,6 @@ footer {
 /*comienzo galeria*/
 
 .galeria-container {
-  padding-top: 100px;
-  margin-top: 100px;
   position: relative;
   display: flex;
   flex-flow: row wrap;
@@ -224,8 +219,13 @@ footer {
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.514);
+  background-color: rgba(0, 0, 0, 0.123);
   color: white;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
 }
 
 .box:hover .overlay {
