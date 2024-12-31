@@ -190,3 +190,49 @@ footer {
 }
 
 /*fin de pagina error-404 */
+
+/*comienzo galeria*/
+
+.galeria-container {
+  padding-top: 100px;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box {
+  position: relative;
+  margin: 10px;
+  height: 290px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  display: none;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.514);
+  color: white;
+}
+
+.box:hover .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+/* final galeria */
