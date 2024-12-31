@@ -11,7 +11,7 @@ body {
   background: #151f28;
   color: #fff;
   overflow-x: hidden;
-  padding-top: 57px;
+  margin: 0;
 }
 
 .btn-primary {
@@ -37,6 +37,13 @@ body {
 .navbar {
   background-color: #141313;
   font-size: 20px;
+}
+
+.navbar-sticky {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar-toggler-icon {
@@ -65,7 +72,7 @@ body {
 
 @media (max-width: 900px) {
   body {
-    padding-top: 70px;
+    margin-top: 0;
   }
 }
 
