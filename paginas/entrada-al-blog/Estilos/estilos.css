@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #151f28;
+  color: #fff;
+  overflow-x: hidden;
+  padding-top: 57px;
+}
+
+.btn-primary {
+  background-color: #1e3a5f;
+  border-color: #00d9ff;
+}
+
+.btn-primary:hover {
+  background-color: #3e89e0;
+  border-color: #004085;
+}
+
+.btn:before {
+  background-color: #00d9ff;
+  height: 150px;
+  width: 200px;
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+/*navbar*/
+
+.navbar {
+  background-color: #141313;
+  font-size: 20px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.img-logo {
+  width: 190px;
+  transition: transform 0.3s ease;
+}
+
+.img-logo:hover {
+  transform: scale(1.05);
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #1abc9c;
+  transform: scale(1.1);
+}
+
+@media (max-width: 900px) {
+  body {
+    padding-top: 70px;
+  }
+}
+
+.carousel {
+  div {
+    img {
+      height: 350px;
+      object-fit: cover;
+    }
+  }
+}
+
+.card {
+  background-color: #141313;
+  border-color: #004085;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+form button[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  font-size: 1.5rem;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+form {
+  background-color: #141313;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form .form-control {
+  background-color: #151f28;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+form .form-control:focus {
+  background-color: #1e1e1e;
+  color: #fff;
+  border-color: #00d9ff;
+  outline: none;
+  box-shadow: 0 0 5px #00d9ff;
+}
+
+form button[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  font-size: 1.5rem;
+  padding: 5px 30px;
+  border-radius: 10px;
+  background-color: #00d9ff;
+  color: #141313;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+form .form-control::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.list-group-item {
+  background-color: #151f28;
+  color: #fff;
+  border: none;
+  padding: 15px;
+}
+
+.list-group-item + .list-group-item {
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: white;
+}
+
+footer {
+  background-color: #141313;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #1abc9c;
+  transform: scale(1.1);
+}
+
+.mapa-container {
+  height: 250px;
+  width: 100%;
+  margin-bottom: -16px;
+}
+
+.mapa-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.img-footer {
+  max-width: 180px;
+  transition: transform 0.3s ease;
+}
+
+.img-footer:hover {
+  transform: scale(1.05);
+}
