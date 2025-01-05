@@ -34,6 +34,10 @@ body {
 /*navbar*/
 
 .navbar {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
   background-color: #141313;
   font-size: 20px;
 }
@@ -64,10 +68,10 @@ body {
 
 /*fin  de navbar*/
 
-.tamanio-carrousel {
+.height-carrousel {
   div {
     img {
-      height: 350px;
+      height: 290px;
       object-fit: cover;
     }
   }
@@ -138,6 +142,15 @@ footer {
   border: 0;
 }
 
+.mapa-contacto {
+  height: 350px;
+}
+
+.mapa-contacto iframe {
+  width: 100%;
+  height: 100%;
+}
+
 .img-footer {
   max-width: 180px;
   transition: transform 0.3s ease;
@@ -183,6 +196,23 @@ footer {
 }
 
 /*fin de pagina error-404 */
+
+/*comienzo galeria*/
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  border-radius: 23px;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+/* final galeria */
 /*inicio-sesion*/
 
 .section-login {
