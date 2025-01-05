@@ -11,7 +11,6 @@ body {
   background: #151f28;
   color: #fff;
   overflow-x: hidden;
-  padding-top: 57px;
 }
 
 .btn-primary {
@@ -35,8 +34,19 @@ body {
 /*navbar*/
 
 .navbar {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
   background-color: #141313;
   font-size: 20px;
+}
+
+.navbar-sticky {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar-toggler-icon {
@@ -63,18 +73,12 @@ body {
   transform: scale(1.1);
 }
 
-@media (max-width: 900px) {
-  body {
-    padding-top: 70px;
-  }
-}
-
 /*fin  de navbar*/
 
-.tamanio-carrousel {
+.height-carrousel {
   div {
     img {
-      height: 350px;
+      height: 290px;
       object-fit: cover;
     }
   }
@@ -145,6 +149,15 @@ footer {
   border: 0;
 }
 
+.mapa-contacto {
+  height: 350px;
+}
+
+.mapa-contacto iframe {
+  width: 100%;
+  height: 100%;
+}
+
 .img-footer {
   max-width: 180px;
   transition: transform 0.3s ease;
@@ -190,3 +203,61 @@ footer {
 }
 
 /*fin de pagina error-404 */
+
+/*comienzo galeria*/
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  border-radius: 23px;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+/* final galeria */
+/*inicio-sesion*/
+
+.section-login {
+  margin-top: 250px;
+}
+.btn-primary {
+  background-color: #1e3a5f;
+  border-color: #00d9ff;
+}
+
+.btn-primary:hover {
+  background-color: #3e89e0;
+  border-color: #004085;
+}
+
+.btn:before {
+  background-color: #00d9ff;
+  height: 150px;
+  width: 200px;
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.fila-1 {
+  max-width: 1000px;
+  margin: auto;
+}
+/*fin de inicio de sesion*/
+
+/* sobre nosotros */
+
+.about-us-img {
+  text-align: center;
+}
+
+.about-us-img img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
