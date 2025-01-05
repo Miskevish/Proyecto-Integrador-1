@@ -190,3 +190,15 @@ footer {
 }
 
 /*fin de pagina error-404 */
+
+/* sobre nosotros */
+
+.about-us-img {
+  text-align: center;
+}
+
+.about-us-img img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
