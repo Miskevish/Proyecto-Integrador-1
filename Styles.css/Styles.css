@@ -213,3 +213,44 @@ footer {
 }
 
 /* final galeria */
+/*inicio-sesion*/
+
+.section-login {
+  margin-top: 250px;
+}
+.btn-primary {
+  background-color: #1e3a5f;
+  border-color: #00d9ff;
+}
+
+.btn-primary:hover {
+  background-color: #3e89e0;
+  border-color: #004085;
+}
+
+.btn:before {
+  background-color: #00d9ff;
+  height: 150px;
+  width: 200px;
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.fila-1 {
+  max-width: 1000px;
+  margin: auto;
+}
+/*fin de inicio de sesion*/
+
+/* sobre nosotros */
+
+.about-us-img {
+  text-align: center;
+}
+
+.about-us-img img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
